@@ -49,3 +49,63 @@ Total params: 14751560 (56.27 MB)
 Trainable params: 36872 (144.03 KB)
 Non-trainable params: 14714688 (56.13 MB)
 _________________________________________________________________
+Found 2576 images belonging to 8 classes.
+{'apar': 0, 'kelas': 1, 'koridor': 2, 'lift': 3, 'orang': 4, 'pintu_darurat': 5, 'pintu_ruang': 6, 'tangga': 7}
+Found 5839 images belonging to 8 classes.
+Found 2576 images belonging to 8 classes.
+
+Epoch 1/12
+182/182 [==============================] - 116s 637ms/step - loss: 0.5689 - accuracy: 0.8159 - val_loss: 0.4151 - val_accuracy: 0.8551
+Epoch 2/12
+182/182 [==============================] - 122s 670ms/step - loss: 0.1848 - accuracy: 0.9499 - val_loss: 0.3026 - val_accuracy: 0.8949
+Epoch 3/12
+182/182 [==============================] - 124s 681ms/step - loss: 0.1118 - accuracy: 0.9685 - val_loss: 0.2636 - val_accuracy: 0.9066
+Epoch 4/12
+182/182 [==============================] - 126s 694ms/step - loss: 0.0850 - accuracy: 0.9769 - val_loss: 0.1886 - val_accuracy: 0.9332
+Epoch 5/12
+182/182 [==============================] - 127s 699ms/step - loss: 0.0696 - accuracy: 0.9809 - val_loss: 0.1930 - val_accuracy: 0.9320
+Epoch 6/12
+182/182 [==============================] - 120s 662ms/step - loss: 0.0506 - accuracy: 0.9897 - val_loss: 0.1607 - val_accuracy: 0.9398
+Epoch 7/12
+182/182 [==============================] - 116s 636ms/step - loss: 0.0507 - accuracy: 0.9879 - val_loss: 0.1365 - val_accuracy: 0.9492
+Epoch 8/12
+182/182 [==============================] - 116s 639ms/step - loss: 0.0423 - accuracy: 0.9879 - val_loss: 0.2911 - val_accuracy: 0.8898
+Epoch 9/12
+182/182 [==============================] - 116s 638ms/step - loss: 0.0413 - accuracy: 0.9879 - val_loss: 0.2131 - val_accuracy: 0.9227
+Epoch 10/12
+182/182 [==============================] - 115s 634ms/step - loss: 0.0320 - accuracy: 0.9919 - val_loss: 0.1592 - val_accuracy: 0.9453
+Epoch 11/12
+182/182 [==============================] - 115s 632ms/step - loss: 0.0303 - accuracy: 0.9923 - val_loss: 0.2143 - val_accuracy: 0.9277
+Epoch 12/12
+182/182 [==============================] - 115s 631ms/step - loss: 0.0267 - accuracy: 0.9940 - val_loss: 0.1620 - val_accuracy: 0.9426
+Final training accuracy = 0.9939727783203125
+Final validation accuracy = 0.942578136920929
+
+Actual class: kelas\9190.jpg
+Predicted class: kelas
+<IPython.core.display.Image object>
+Actual class: pintu_ruang\1722.jpg
+Predicted class: koridor
+<IPython.core.display.Image object>
+Actual class: koridor\401.jpg
+Predicted class: koridor
+_______________________________________________________________
+Prediction
+1/1 [==============================] - 0s 171ms/step
+Image: apar.jpeg, Predicted Class: apar
+1/1 [==============================] - 0s 33ms/step
+Image: koridor1.jpg, Predicted Class: koridor
+1/1 [==============================] - 0s 37ms/step
+Image: koridor2.jpeg, Predicted Class: koridor
+1/1 [==============================] - 0s 37ms/step
+Image: lift1.jpg, Predicted Class: lift
+1/1 [==============================] - 0s 36ms/step
+Image: lift2.jpg, Predicted Class: lift
+1/1 [==============================] - 0s 35ms/step
+Image: lift3.jpeg, Predicted Class: lift
+1/1 [==============================] - 0s 35ms/step
+Image: lift3.jpg, Predicted Class: lift
+1/1 [==============================] - 0s 48ms/step
+Image: orang1.jpg, Predicted Class: orang
+1/1 [==============================] - 0s 35ms/step
+Image: pintu_darurat.jpg, Predicted Class: pintu_ruang
