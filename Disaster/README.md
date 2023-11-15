@@ -83,10 +83,10 @@ Final validation accuracy = 0.942578136920929
 
 Actual class: kelas\9190.jpg
 Predicted class: kelas
-<IPython.core.display.Image object>
+
 Actual class: pintu_ruang\1722.jpg
 Predicted class: koridor
-<IPython.core.display.Image object>
+
 Actual class: koridor\401.jpg
 Predicted class: koridor
 _______________________________________________________________
